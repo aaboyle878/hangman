@@ -14,9 +14,3 @@ def input_validation():
             return print('This is not a letter')
     else:
         raise ValueError("Oops! That is not a valid input.")
-
-
-
-select_word()
-print(select_word())
-input_validation()
