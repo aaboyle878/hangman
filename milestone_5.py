@@ -11,6 +11,7 @@ def play_game(word_list):
             game.ask_for_input()
         else:
             return print("Congratulation, You have won!")
+    pass
 
 class Hangman():
     def __init__(self, word_list, num_lives = 5):
