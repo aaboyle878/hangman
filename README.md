@@ -9,5 +9,5 @@ To play the game simply run the milestone_5.py as this has the core game functio
 
 To view how the game was built at each phase you may refer to the previous milestome versioning steps
 
-This application will be imporved going forward as the final mileston could have been comprised of imports from the pervious steps 
+This application will be improved going forward as the final mileston could have been comprised of imports from the pervious steps 
 
