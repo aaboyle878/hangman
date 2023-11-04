@@ -35,7 +35,9 @@ class Hangman():
                     counter += 1
             self.num_letters -= 1
         else:
+            self.num_lives -= 1
             print(f"Sorry, {guess} is not in the word. Try again.")
+            print(f"You have {self.num_lives} lives left")
                 
 
 game1 = Hangman(['apple', 'orange', 'grape', 'peach', 'blueberry'])
