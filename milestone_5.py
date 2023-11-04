@@ -18,11 +18,11 @@ class Hangman():
         self.word_list = word_list
         self.num_lives = num_lives
         self.word = random.choice(word_list)
-        print(self.word)
         self.word_guessed = ['_'] * len(self.word)
         self.num_letters = len(set(list(self.word)))
 
     def ask_for_input(self):
+        print(self.word_guessed)
         while True:
             guess = input('Please enter a single letter: ')
             if len(guess) != 1 or guess.isalpha() != True:
