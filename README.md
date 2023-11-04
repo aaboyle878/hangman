@@ -5,5 +5,9 @@ This is an implementation of the Hangman game, where the computer thinks of a wo
 
 To install the application simply clone the repo
 
-The current file structure has milestone_3 importing the select word function from milestone_2 and will be restructured at a later point in time to simplify as we continue the project steps
+To play the game simply run the milestone_5.py as this has the core game functionality
+
+To view how the game was built at each phase you may refer to the previous milestome versioning steps
+
+This application will be imporved going forward as the final mileston could have been comprised of imports from the pervious steps 
 
