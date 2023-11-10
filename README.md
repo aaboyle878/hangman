@@ -3,11 +3,13 @@ Hangman is a classic game in which a player thinks of a word and the other playe
 
 This is an implementation of the Hangman game, where the computer thinks of a word and the user tries to guess it. 
 
+## Installation
 To install the application simply clone the repo
 
-To play the game simply run the milestone_5.py as this has the core game functionality
+To play the game simply clone the repo and run the milestone_5.py using python milestone_5,py as this has the core game functionality
 
 To view how the game was built at each phase you may refer to the previous milestome versioning steps
 
+## Working comments 
 This application will be improved going forward as the final mileston could have been comprised of imports from the pervious steps 
 
