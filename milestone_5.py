@@ -21,7 +21,6 @@ class Hangman():
         self.num_letters = len(set(list(self.word)))
         print(f"The Mystery word has {self.num_letters} characters")
         
-
     def ask_for_input(self):
         while True:
             print(self.word_guessed)
@@ -52,6 +51,6 @@ class Hangman():
             self.num_lives -= 1
             print(f"Sorry, {guess} is not in the word. Try again.")
             print(f"You have {self.num_lives} lives left")
-            
+
 if __name__ == "__main__":
     play_game(['apple', 'orange', 'grape', 'peach', 'blueberry'])
