@@ -25,3 +25,12 @@ steps:
     command: 'buildAndPush'
     Dockerfile: '**/Dockerfile'
     tags: 'latest'
+
+- task: KubernetesManifest@1
+  inputs:
+    action: 'deploy'
+    connectionType: 'azureResourceManager'
+    azureSubscriptionConnection: 'Azure subscription 1(e463ab05-296d-4911-9383-649978d2e8d2)'
+    azureResourceGroup: 'aks-rg'
+    kubernetesCluster: 'maitankis-aks'
+    manifests: 'deployment.yaml'
